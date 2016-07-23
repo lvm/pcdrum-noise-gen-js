@@ -12,7 +12,7 @@ npm install pcdrum-noise-gen
 
 ```js
 var noise_gen = require('pcdrum-noise-gen'),
-    noise = noise(AudioContext, stereo, bufferSize)
+    noise = noise_gen(AudioContext, stereo, bufferSize)
     ;
 ```
 
